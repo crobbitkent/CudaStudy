@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file main.cpp...
+  
+  C:\Users\CrobbitKent\CUDA\ConsoleApplication1\ConsoleApplication1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cpp.obj "C:\Users\CrobbitKent\CUDA\ConsoleApplication1\ConsoleApplication1\main.cpp" 
+  main.cpp
+  
+  C:\Users\CrobbitKent\CUDA\ConsoleApplication1\ConsoleApplication1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -dlink -o x64\Debug\ConsoleApplication1.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib cudart_static.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 64 x64\Debug\main.cpp.obj 
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  cudart_static.lib
+  main.cpp.obj
+  ConsoleApplication1.vcxproj -> C:\Users\CrobbitKent\CUDA\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
